@@ -6,7 +6,7 @@
  * Description:   Ascolta due file audio in modo sincronizzato. Before/After edit. Versione privata.
  * Author:      Francesco Taurino
  * Author URI:    https://www.francescotaurino.com
- * Version:     0.1.0
+ * Version:     0.1.1
  * Text Domain:   compare-audio
  * Domain Path:   /languages
  * License:     GPL v3
