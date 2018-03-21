@@ -2,7 +2,8 @@
 /**
  * Plugin Name:		Compare Audio
  * Plugin URI:		https://www.francescotaurino.com/wordpress/compare-audio
- * Description:		Ascolta due file audio in modo sincronizzato. Before/After edit. Versione privata.
+ * GitHub Plugin URI: francesco-taurino/compare-audio
+ Description:		Ascolta due file audio in modo sincronizzato. Before/After edit. Versione privata.
  * Author:			Francesco Taurino
  * Author URI:		https://www.francescotaurino.com
  * Version:			0.0.3
