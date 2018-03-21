@@ -6,7 +6,7 @@
  * Description:   Ascolta due file audio in modo sincronizzato. Before/After edit. Versione privata.
  * Author:      Francesco Taurino
  * Author URI:    https://www.francescotaurino.com
- * Version:     0.0.6
+ * Version:     0.1.0
  * Text Domain:   compare-audio
  * Domain Path:   /languages
  * License:     GPL v3
@@ -58,7 +58,7 @@ function button_shortcode( $atts, $content = null ) {
   <source src="<?php echo esc_url($url2); ?>">
 </audio>
 
-<button class="btn btn-primary" onclick="
+<button class="btn btn-warning" onclick="
 document.getElementById('<?php echo $id2; ?>').preload = 'auto';
 document.getElementById('<?php echo $id1; ?>').play();
 document.getElementById('<?php echo $id2; ?>').play();
@@ -68,7 +68,7 @@ document.getElementById('<?php echo $id2; ?>').volume = 0.0;
 Before
 </button>
 
-<button class="btn btn-primary" onclick="
+<button class="btn btn-success" onclick="
 document.getElementById('<?php echo $id1; ?>').preload = 'auto';
 document.getElementById('<?php echo $id2; ?>').play();
 document.getElementById('<?php echo $id1; ?>').play();
@@ -88,7 +88,7 @@ Pause
 </button>
 <?php } ?>
 
-<button class="btn btn-secondary" onclick="
+<button class="btn btn-danger" onclick="
 document.getElementById('<?php echo $id1; ?>').pause(); 
 document.getElementById('<?php echo $id2; ?>').pause(); 
 document.getElementById('<?php echo $id1; ?>').currentTime = 0; 
@@ -96,8 +96,6 @@ document.getElementById('<?php echo $id2; ?>').currentTime = 0;
 ">
 Stop
 </button>
-<br />
-
 
 <?php
 $out = ob_get_contents(); // Store buffer in variable
