@@ -65,7 +65,7 @@ document.getElementById('<?php echo $id2; ?>').play();
 document.getElementById('<?php echo $id1; ?>').volume = 1.0;
 document.getElementById('<?php echo $id2; ?>').volume = 0.0;
 ">
-Before
+<i class="fa fa-play"></i> Before 
 </button>
 
 <button class="btn btn-success" onclick="
@@ -75,7 +75,7 @@ document.getElementById('<?php echo $id1; ?>').play();
 document.getElementById('<?php echo $id2; ?>').volume = 1.0;
 document.getElementById('<?php echo $id1; ?>').volume = 0.0;
 ">
-After
+<i class="fa fa-play"></i> After
 </button>
 
 
@@ -84,7 +84,7 @@ After
 document.getElementById('<?php echo $id1; ?>').pause(); 
 document.getElementById('<?php echo $id2; ?>').pause();
 ">
-Pause
+<i class="fa fa-pause"></i> Pause
 </button>
 <?php } ?>
 
@@ -94,7 +94,7 @@ document.getElementById('<?php echo $id2; ?>').pause();
 document.getElementById('<?php echo $id1; ?>').currentTime = 0; 
 document.getElementById('<?php echo $id2; ?>').currentTime = 0;
 ">
-Stop
+<i class="fa fa-stop"></i> Stop
 </button>
 
 <?php
